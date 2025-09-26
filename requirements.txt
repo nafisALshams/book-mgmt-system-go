@@ -1,0 +1,42 @@
+# Requirements for Book Management System (Go + Next.js)
+
+## Backend (Go)
+- Go 1.18+
+- MySQL 5.7+/8.0+
+- Go modules (go.mod, go.sum)
+- Required Go packages (auto-installed by `go mod tidy`):
+  - github.com/gorilla/mux
+  - github.com/gorilla/handlers
+  - github.com/jinzhu/gorm
+  - github.com/jinzhu/gorm/dialects/mysql
+  - github.com/joho/godotenv
+
+## Frontend (Next.js)
+- Node.js 18+
+- npm 9+
+- All frontend dependencies in `frontend/package.json` (install with `npm install`)
+
+## How to install everything
+
+### Backend
+1. Install Go: https://go.dev/dl/
+2. Install MySQL: https://dev.mysql.com/downloads/installer/
+3. In the project root, run:
+   ```sh
+   go mod tidy
+   go get github.com/joho/godotenv
+   ```
+
+### Frontend
+1. Install Node.js: https://nodejs.org/
+2. In the `frontend` folder, run:
+   ```sh
+   npm install
+   ```
+
+### Database
+- Create a MySQL database and user as described in the README and .env.example
+
+---
+
+# This file is for documentation only. All actual dependencies are managed by Go modules and npm.
