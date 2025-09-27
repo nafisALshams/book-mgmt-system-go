@@ -53,11 +53,11 @@ book-mgmt-system-go/
 DEMO
 
 Homepage
-![App Screenshot](./assets/screenshot1.png)
+![App Screenshot](assets/screenshot1.png)
 
 Manage Books
-![App Screenshot](./assets/screenshot2.png)
-![App Screenshot](./assets/screenshot3.png)
+![App Screenshot](assets/screenshot2.png)
+![App Screenshot](assets/screenshot3.png)
 
 All Books
-![App Screenshot](./assets/screenshot4.png)
+![App Screenshot](assets/screenshot4.png)
