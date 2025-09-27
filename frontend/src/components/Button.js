@@ -32,6 +32,7 @@ export default function Button({
       className={`${baseClasses} ${variants[variant]} ${sizes[size]} ${className}`}
     >
       {icon && <span>{icon}</span>}
+      }
       <span>{children}</span>
     </button>
   );

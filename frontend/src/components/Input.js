@@ -4,6 +4,7 @@ export default function Input({ label, type = "text", value, onChange, placehold
       <label className="block text-sm font-semibold text-gray-200">
         {label}
         {required && <span className="text-red-400 ml-1">*</span>}
+        }
       </label>
       <div className="relative">
         {icon && (
